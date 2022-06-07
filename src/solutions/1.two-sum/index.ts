@@ -6,6 +6,7 @@
  * @return result
  */
 function twoSum (nums: number[] , target: number):number[] | undefined {
+    // key:number in input array , value:index of number in input array
     const map: Record<number, number> = {};
     
     for (let i = 0; i < nums.length; i++) {
